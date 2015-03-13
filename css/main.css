@@ -1,0 +1,48 @@
+
+html{
+		box-sizing: border-box;
+}
+
+*, *::before, *::after {
+box-sizing: inherit;
+}
+
+body{
+	margin: 0;
+}
+
+.medal{
+	width:15%;
+	padding:10px;
+	background-color: #e7001d;
+
+}
+
+.banner{
+	width:100%;
+}
+
+.symbol-d{
+	width:50%;
+	background-color: #222222;
+}
+
+.symbol-g{
+	width:50%;
+	background-color: #e4c22a;
+}
+
+.symbol-r{
+	width:50%;
+	background-color: #bc0017;
+}
+
+.symbol-ox{
+	width:50%;
+	background-color: #e4c22a;
+}
+
+ul{
+	color: #fff;
+	background-color: #000;
+}
