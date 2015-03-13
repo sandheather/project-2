@@ -11,11 +11,41 @@ body{
 	margin: 0;
 }
 
+header{
+	background-color: #e7001d;
+	text-align: center;
+}
+
 .medal{
 	width:15%;
 	padding:10px;
 	background-color: #e7001d;
+}
 
+h1{
+	color: #000;
+	font-size: 1.8em;
+}
+
+h2{
+	color: #fff;
+	font-size: 1.8em;
+}
+
+nav{
+	text-align: center;
+}
+
+nav ul{
+	color: #fff;
+	background-color: #000;
+	list-style: none;
+}
+
+nav li{
+	border:1px solid #000;
+	margin:0;
+	display:block;
 }
 
 .banner{
@@ -25,42 +55,81 @@ body{
 .symbol-d{
 	width:50%;
 	background-color: #e4c22a;
+	float:right;
 }
 
 .symbol-g{
 	width:50%;
 	background-color: #222222;
+	float:right;
 }
 
 .symbol-r{
 	width:50%;
 	background-color: #bc0017;
+	float:right;
 }
 
 .symbol-ox{
 	width:50%;
 	background-color: #e4c22a;
+	float:right;
 }
 
-ul{
-	color: #fff;
-	background-color: #000;
+.symbol-ds{
+	width:50%;
+	background-color: #e4c22a;
+float: left;
 }
 
+.symbol-gs{
+	width:50%;
+	background-color: #222222;
+	float: left;
+}
+
+.symbol-rs{
+	width:50%;
+	background-color: #bc0017;
+	float: left;
+}
+
+.symbol-oxs{
+	width:50%;
+	background-color: #e4c22a;
+	float: left;
+}
 .intro{
-
+font-size: 1.2em;
 }
 
 .text1{
 color:#fff;
 text-align: center;
 font-style: italic;
-font-size: 30%;
+font-size: 1em;
 }
 
 .text2{
 color:#000;
 text-align: center;
 font-style: italic;
-font-size: 30%''
+font-size: 1em;
+}
+
+.yellow{
+background-color: #e4c22a;
+}
+
+.black{
+background-color: #222222;
+}
+
+.red{
+	background-color: #bc0017;
+}
+
+footer{
+	background-color: #222222;
+	color:#fff;
 }
