@@ -25,11 +25,19 @@ header{
 h1{
 	color: #000;
 	font-size: 1.8em;
+	text-align: center;
+	padding:10px;
+	padding-top:30px;
+	margin-top: 0;
 }
 
 h2{
 	color: #fff;
 	font-size: 1.8em;
+	text-align: center;
+	padding:10px;
+	padding-top:30px;
+	margin-top: 0;
 }
 
 nav{
@@ -48,9 +56,26 @@ nav li{
 	display:block;
 }
 
-.banner{
+.banner-image{
 	width:100%;
+	display: block;
 }
+
+.banner-text{
+font-size: 1.5em;
+position: absolute;
+color: #fff;
+text-align: center;
+bottom: 1em;
+width: 100%;
+font-style: italic;
+}
+
+.banner{
+position:relative;
+overflow: hidden;
+}
+
 
 .symbol-d{
 	width:50%;
@@ -99,15 +124,16 @@ float: left;
 	background-color: #e4c22a;
 	float: left;
 }
-.intro{
-font-size: 1.2em;
-}
 
 .text1{
 color:#fff;
 text-align: center;
 font-style: italic;
 font-size: 1em;
+padding-bottom: 20px;
+padding-top:0;
+margin-top: 0;
+margin-bottom: 0;
 }
 
 .text2{
@@ -115,6 +141,10 @@ color:#000;
 text-align: center;
 font-style: italic;
 font-size: 1em;
+padding-bottom: 20px;
+padding-top:0;
+margin-top: 0;
+margin-bottom: 0;
 }
 
 .yellow{
@@ -132,4 +162,9 @@ background-color: #222222;
 footer{
 	background-color: #222222;
 	color:#fff;
+	text-align: center;
+	font-size: 1em;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-decoration: underline;
 }
