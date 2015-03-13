@@ -24,12 +24,12 @@ body{
 
 .symbol-d{
 	width:50%;
-	background-color: #222222;
+	background-color: #e4c22a;
 }
 
 .symbol-g{
 	width:50%;
-	background-color: #e4c22a;
+	background-color: #222222;
 }
 
 .symbol-r{
@@ -45,4 +45,22 @@ body{
 ul{
 	color: #fff;
 	background-color: #000;
+}
+
+.intro{
+
+}
+
+.text1{
+color:#fff;
+text-align: center;
+font-style: italic;
+font-size: 30%;
+}
+
+.text2{
+color:#000;
+text-align: center;
+font-style: italic;
+font-size: 30%''
 }
