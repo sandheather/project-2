@@ -17,15 +17,21 @@ header{
 }
 
 .medal{
-	width:20%;
-	padding:10px;
+	width:30%;
+	padding: 10px;
 	background-color: #e7001d;
+
 }
 
 h1{
 	margin: 0;
 text-shadow: 1.5px 1.5px 1.5px #494949;
 color: #fff;
+font-size: 4.5em;
+position: absolute;
+text-align: center;
+width: 100%;
+padding-top: 13px;
 }
 
 h2{
@@ -46,24 +52,62 @@ h3{
 	margin-top: 0;
 }
 
+small{
+	font-size: 15pt;
+	display: block;
+}
+
 nav{
 	text-align: center;
+
 }
 
 nav ul{
 	color: #fff;
-	background-color: #000;
 	list-style: none;
 	margin: 0;
+	padding:0;
+
+
 }
 
 nav li{
-	border:1px solid #000;
+
 	margin:0;
-	display:block;
-	border: 5px solid #000;
+	padding:10px;
+	width:50%;
+	background-color: #222222;
+
 }
 
+.left{
+float: left;
+border:3px solid #000;
+	border-bottom: 0.5px solid #000;
+	border-left: 0.5px;
+}
+
+.leftclear{
+clear:left;
+border:3px solid #000;
+	border-right: 0.5px;
+
+}
+
+.right{
+	float: right;
+	border:3px solid #000;
+
+	border-left: 0.5px;
+
+}
+
+.rightclear{
+	clear:right;
+	border:3px solid #000;
+	border-right: 0.5px;
+
+}
 .banner-image{
 	width:100%;
 	display: block;
@@ -83,6 +127,7 @@ text-shadow: 1.5px 1.5px 1.5px #494949;
 .banner{
 position:relative;
 overflow: hidden;
+width: 100%;
 }
 
 .intro{
