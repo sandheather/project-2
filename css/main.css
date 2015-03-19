@@ -1,10 +1,10 @@
 
 html{
-		box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 *, *::before, *::after {
-box-sizing: inherit;
+	box-sizing: inherit;
 }
 
 body{
@@ -25,15 +25,15 @@ header{
 
 h1{
 	margin: 0;
-text-shadow: 1.5px 1.5px 1.5px #494949;
-color: #fff;
-font-size: 3.6em;
-position: absolute;
-left: 0;
-top: -12px;
-text-align: center;
-width: 100%;
-padding-top: 13px;
+	text-shadow: 1.5px 1.5px 1.5px #494949;
+	color: #fff;
+	font-size: 3.6em;
+	position: absolute;
+	left: 0;
+	top: -12px;
+	text-align: center;
+	width: 100%;
+	padding-top: 13px;
 }
 
 h2{
@@ -84,15 +84,15 @@ nav li{
 }
 
 .left{
-float: left;
-border:3px solid #000;
+	float: left;
+	border:3px solid #000;
 	border-bottom: 0.5px solid #000;
 	border-left: 0.5px;
 }
 
 .leftclear{
-clear:left;
-border:3px solid #000;
+	clear:left;
+	border:3px solid #000;
 	border-right: 0.5px;
 
 }
@@ -117,26 +117,25 @@ border:3px solid #000;
 }
 
 .banner-text{
-font-size: 1.5em;
-position: absolute;
-color: #fff;
-text-align: center;
-bottom: 0.5em;
-width: 100%;
-font-style: italic;
-text-shadow: 1.5px 1.5px 1.5px #494949;
+	font-size: 1.5em;
+	color: #fff;
+	text-align: center;
+	bottom: 0.5em;
+	width: 100%;
+	font-style: italic;
+	text-shadow: 1.5px 1.5px 1.5px #494949;
 }
 
 .banner{
-position:relative;
-overflow: hidden;
-width: 100%;
+	position:relative;
+	overflow: hidden;
+	width: 100%;
 }
 
 .intro{
 	font-size: 1.1em;
-margin-right: 10px;
-margin-left:10px;
+	margin-right: 10px;
+	margin-left:10px;
 }
 
 
@@ -167,7 +166,7 @@ margin-left:10px;
 .symbol-ds{
 	width:50%;
 	background-color: #e4c22a;
-float: left;
+	float: left;
 }
 
 .symbol-gs{
@@ -189,33 +188,33 @@ float: left;
 }
 
 .text1{
-color:#fff;
-text-align: center;
-font-style: italic;
-font-size: 1em;
-padding-bottom: 20px;
-padding-top:0;
-margin-top: 0;
-margin-bottom: 0;
+	color:#fff;
+	text-align: center;
+	font-style: italic;
+	font-size: 1em;
+	padding-bottom: 20px;
+	padding-top:0;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 .text2{
-color:#000;
-text-align: center;
-font-style: italic;
-font-size: 1em;
-padding-bottom: 20px;
-padding-top:0;
-margin-top: 0;
-margin-bottom: 0;
+	color:#000;
+	text-align: center;
+	font-style: italic;
+	font-size: 1em;
+	padding-bottom: 20px;
+	padding-top:0;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 .yellow{
-background-color: #e4c22a;
+	background-color: #e4c22a;
 }
 
 .black{
-background-color: #222222;
+	background-color: #222222;
 }
 
 .red{
