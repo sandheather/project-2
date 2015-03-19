@@ -29,6 +29,8 @@ text-shadow: 1.5px 1.5px 1.5px #494949;
 color: #fff;
 font-size: 4.5em;
 position: absolute;
+left: 0;
+top: -20px;
 text-align: center;
 width: 100%;
 padding-top: 13px;
@@ -55,6 +57,7 @@ h3{
 small{
 	font-size: 15pt;
 	display: block;
+
 }
 
 nav{
@@ -146,7 +149,7 @@ margin-left:10px;
 .symbol-g{
 	width:50%;
 	background-color: #222222;
-	float:right;
+	float:left;
 }
 
 .symbol-r{
@@ -158,7 +161,7 @@ margin-left:10px;
 .symbol-ox{
 	width:50%;
 	background-color: #e4c22a;
-	float:right;
+	float:left;
 }
 
 .symbol-ds{
@@ -170,7 +173,7 @@ float: left;
 .symbol-gs{
 	width:50%;
 	background-color: #222222;
-	float: left;
+	float: right;
 }
 
 .symbol-rs{
@@ -182,7 +185,7 @@ float: left;
 .symbol-oxs{
 	width:50%;
 	background-color: #e4c22a;
-	float: left;
+	float: right;
 }
 
 .text1{
