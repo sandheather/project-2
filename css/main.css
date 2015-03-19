@@ -1,6 +1,7 @@
 
 html{
 	box-sizing: border-box;
+	font-family: 'Noto Sans', sans-serif;
 }
 
 *, *::before, *::after {
@@ -120,10 +121,12 @@ nav li{
 	font-size: 1.5em;
 	color: #fff;
 	text-align: center;
-	bottom: 0.5em;
+	bottom: 1.5em;
 	width: 100%;
 	font-style: italic;
 	text-shadow: 1.5px 1.5px 1.5px #494949;
+	margin: 0;
+	position: absolute;
 }
 
 .banner{
