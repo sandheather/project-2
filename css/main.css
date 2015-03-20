@@ -12,6 +12,10 @@ body{
 	margin: 0;
 }
 
+a{
+	color: #fff;
+	text-decoration: none;
+}
 header{
 	background-color: #e7001d;
 	text-align: center;
