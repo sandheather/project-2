@@ -86,12 +86,13 @@ nav li{
 .left{
 	float: left;
 	border:3px solid #000;
-	border-bottom: 0.5px solid #000;
+
 }
 
 .clear2{
 	clear:left;
 	border:3px solid #000;
+	border-top:0;
 }
 
 .right{
